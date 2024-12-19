@@ -1,5 +1,5 @@
 <?php
-$servername = "std-mysql"; // адрес сервера
+$servername = "std-mysql.ist.mospolytech.ru"; // адрес сервера
 $username = "std_2319_site"; // имя пользователя
 $password = "23289192"; // пароль
 $dbname = "std_2319_site"; // имя базы данных
