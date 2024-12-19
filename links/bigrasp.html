@@ -91,6 +91,15 @@
             <h2>Уход за растением</h2>
             <p>Розолистная малина требует регулярного полива и подкормки. Также важно обрезать кусты для лучшего урожая.</p>
         </section>
+         <!-- Форма для ввода текста -->
+         <section class="form-section">
+            <h2>Добавить информацию о растении</h2>
+            <form action="submit.php" method="POST">
+                <input type="text" name="title" placeholder="Введите название" required>
+                <textarea name="description" rows="4" placeholder="Введите описание" required></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 Никакие права не защищены</p>
