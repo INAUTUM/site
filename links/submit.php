@@ -2,7 +2,7 @@
 $servername = "std-mysql.ist.mospolytech.ru"; // адрес сервера
 $username = "std_2319_site"; // имя пользователя
 $password = "23289192"; // пароль
-$dbname = "std_2319_site"; // имя базы данных
+$dbname = "std_2319"; // имя базы данных
 
 // Создание соединения
 $conn = new mysqli($servername, $username, $password, $dbname);
